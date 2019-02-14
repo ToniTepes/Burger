@@ -1,9 +1,9 @@
 require("dotenv").config();
 
-const mysql = require("mysql");
-const keys = require("../keys");
-
-const connection = mysql.createConnection({
+var mysql = require("mysql");
+var keys = require("../keys");
+var connection = mysql.createConnection({
+    
     host: "localhost",
     port: 3000,
     user: "root",
